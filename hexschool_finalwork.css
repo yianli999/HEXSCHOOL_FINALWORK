@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+}
+.bar{
+    height: 30px;
+    background-color: #f6f6f6;
+}
+.bar ul{
+    float: right;
+}
+.bar ul li{
+    float: left;
+    margin: 5px;
+}
+.bar li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.bar li img{
+    margin-right: 5px;
+    float: left;
+}
+.bar li span{
+    float: left;
+}
+.facebook{
+    border-right: 2px solid#cccccc;
+    padding-right: 8px;
+}
+.facebook span{
+    color: #4460a0;
+}
+.twitter span{
+    color: #00aaec;
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 5px;
+
+}
+.header h1 a{
+    display: block;
+    background-image: url(../pactice/image/hex_logo.png);
+    width: 171px;
+    height: 36px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+.fontpage ul{
+    display: flex;
+    justify-content:space-between ;
+    color: #00cc99;
+    font-size: 20px;
+}
+.fontpage ul li a{
+    display: block;
+    padding: 5px;
+    color: #00cc99;
+    text-decoration: none;
+}
+.fontpage ul li a:hover{
+    border-bottom: 4px solid #2cb88e;
+}
+.banner{
+    background-image:url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png
+    );
+    width: 1000px;
+    height: 346px;
+    position: relative;
+    
+}
+.banner1{
+    width: 990px;
+    font-size: 32px;
+    color: #ffff;
+    background-color:#6e696958 ;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 100px;
+}
+.banner1 h2{
+    padding-top: 10px;
+}
+.lesson{
+    display: flex;
+    justify-content: space-around;
+
+}
+.html{
+    border-left: #918f8f25 solid 2px;
+    border-right:#918f8f25 solid 2px;
+    border-bottom: #58585857 solid 3px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.html h1{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rwd{
+    border-left: #918f8f25 solid 2px;
+    border-right:#918f8f25 solid 2px;
+    border-bottom: #58585857 solid 3px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.rwd h1{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.jquery{
+    border-left: #918f8f25 solid 2px;
+    border-right:#918f8f25 solid 2px;
+    border-bottom: #58585857 solid 3px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.jquery h1{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.jquery ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.comparion{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comparion h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom :10px;
+}
+
+.comparion tr{
+    border-top: 1px solid#000;
+    border-bottom:1px solid #000;
+
+}
+.comparion th,.comparion td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: justify;
+    font-weight: 600;
+}
+.comparion th{
+    background-color: #6b686848;
+}
+.questionnaire{
+    width: 1000px;
+    background:linear-gradient(#00654b,#009771);
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.questionnaire h1{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+}
+.namenumber{
+    display: flex;
+    justify-content: center;
+
+}
+.namenumber h2{
+    font-size: 20px;
+    color: #ffff;
+}
+.content{
+    margin-top: 5px;
+}
+.content textarea{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin-top: 5px;
+}
+
+.name{
+    padding-left: 30px;
+    color: #ffff;
+    font-size: 20px;
+}
+.name input{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.submit input{
+    float: right;
+    background-color: #2cb88e;
+    border-radius: 10%;
+    border: none;
+    color: #ffff;
+    padding-bottom: 5px;
+    font-size: 16px;
+
+}
+.submit input:hover{
+    background-color: #ffff;
+    color: #2cb88e;
+}
+.footer{
+    width: 1000px;
+    height: 100px;
+    background-color: #fff;
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.footer_information{
+    float: right;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 600;
+}
+.footer_information p{
+    padding: 2px;
+}
+.footer_information span{
+    color: red
+}
